@@ -1,7 +1,7 @@
 # SanFranciscoFontCDN
 San Francisco Font CSS CDN
 
-`San Francisco Display` and `San Francisco Text` are available
+`San Francisco Display`, `San Francisco Text`, `San Francisco Mono` are available
 
 ## Usage
 Normal
