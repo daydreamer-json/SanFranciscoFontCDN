@@ -31,8 +31,8 @@
 @font-face {
   font-family: "SF Pro Display";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Display-SemiBold.woff2") format("woff2"),
-       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-SemiBold.woff") format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Display-Semibold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Semibold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Display";
@@ -85,8 +85,8 @@
 @font-face {
   font-family: "SF Pro Text";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Text-SemiBold.woff2") format("woff2"),
-       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-SemiBold.woff") format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Text-Semibold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Semibold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Text";
@@ -139,8 +139,8 @@
 @font-face {
   font-family: "SF Pro Rounded";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Rounded-SemiBold.woff2") format("woff2"),
-       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-SemiBold.woff") format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Rounded-Semibold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Semibold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Rounded";
@@ -181,8 +181,8 @@
 @font-face {
   font-family: "SF Mono";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Mono-SemiBold.woff2") format("woff2"),
-       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Mono-SemiBold.woff") format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Mono-Semibold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Mono-Semibold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Mono";
@@ -229,8 +229,8 @@
 @font-face {
   font-family: "SF Compact Display";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Display-SemiBold.woff2") format("woff2"),
-       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-SemiBold.woff") format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Display-Semibold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Semibold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Display";
@@ -283,8 +283,8 @@
 @font-face {
   font-family: "SF Compact Text";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Text-SemiBold.woff2") format("woff2"),
-       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-SemiBold.woff") format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Text-Semibold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Semibold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Text";
@@ -337,8 +337,8 @@
 @font-face {
   font-family: "SF Compact Rounded";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Rounded-SemiBold.woff2") format("woff2"),
-       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-SemiBold.woff") format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Rounded-Semibold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Semibold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Rounded";
