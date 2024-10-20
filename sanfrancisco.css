@@ -1,420 +1,504 @@
 @font-face {
   font-family: "SF Pro Display";
   font-weight: 100;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Ultralight.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Display-Ultralight.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Ultralight.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-weight: 200;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Thin.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Display-Thin.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Thin.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-weight: 300;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Light.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Display-Light.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Light.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Regular.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Display-Regular.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-weight: 500;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Medium.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Display-Medium.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-SemiBold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Display-SemiBold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-SemiBold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-weight: 700;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Bold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Display-Bold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Bold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-weight: 800;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Heavy.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Display-Heavy.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Heavy.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-weight: 900;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Black.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Display-Black.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Display-Black.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Text";
   font-weight: 100;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Ultralight.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Text-Ultralight.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Ultralight.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Text";
   font-weight: 200;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Thin.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Text-Thin.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Thin.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Text";
   font-weight: 300;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Light.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Text-Light.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Light.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Text";
   font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Regular.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Text-Regular.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Text";
   font-weight: 500;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Medium.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Text-Medium.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Text";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-SemiBold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Text-SemiBold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-SemiBold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Text";
   font-weight: 700;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Bold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Text-Bold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Bold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Text";
   font-weight: 800;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Heavy.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Text-Heavy.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Heavy.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Text";
   font-weight: 900;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Black.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Text-Black.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Text-Black.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Rounded";
   font-weight: 100;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Ultralight.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Rounded-Ultralight.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Ultralight.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Rounded";
   font-weight: 200;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Thin.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Rounded-Thin.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Thin.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Rounded";
   font-weight: 300;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Light.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Rounded-Light.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Light.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Rounded";
   font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Regular.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Rounded-Regular.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Rounded";
   font-weight: 500;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Medium.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Rounded-Medium.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Rounded";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-SemiBold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Rounded-SemiBold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-SemiBold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Rounded";
   font-weight: 700;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Bold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Rounded-Bold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Bold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Rounded";
   font-weight: 800;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Heavy.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Rounded-Heavy.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Heavy.woff") format("woff");
 }
 @font-face {
   font-family: "SF Pro Rounded";
   font-weight: 900;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Black.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Pro-Rounded-Black.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Pro-Rounded-Black.woff") format("woff");
 }
 @font-face {
   font-family: "SF Mono";
   font-weight: 300;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Mono-Light.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Mono-Light.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Mono-Light.woff") format("woff");
 }
 @font-face {
   font-family: "SF Mono";
   font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Mono-Regular.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Mono-Regular.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Mono-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "SF Mono";
   font-weight: 500;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Mono-Medium.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Mono-Medium.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Mono-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "SF Mono";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Mono-SemiBold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Mono-SemiBold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Mono-SemiBold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Mono";
   font-weight: 700;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Mono-Bold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Mono-Bold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Mono-Bold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Mono";
   font-weight: 800;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Mono-Heavy.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Mono-Heavy.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Mono-Heavy.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Display";
   font-weight: 100;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Ultralight.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Display-Ultralight.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Ultralight.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Display";
   font-weight: 200;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Thin.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Display-Thin.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Thin.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Display";
   font-weight: 300;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Light.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Display-Light.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Light.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Display";
   font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Regular.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Display-Regular.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Display";
   font-weight: 500;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Medium.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Display-Medium.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Display";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-SemiBold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Display-SemiBold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-SemiBold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Display";
   font-weight: 700;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Bold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Display-Bold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Bold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Display";
   font-weight: 800;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Heavy.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Display-Heavy.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Heavy.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Display";
   font-weight: 900;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Black.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Display-Black.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Display-Black.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Text";
   font-weight: 100;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Ultralight.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Text-Ultralight.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Ultralight.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Text";
   font-weight: 200;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Thin.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Text-Thin.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Thin.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Text";
   font-weight: 300;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Light.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Text-Light.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Light.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Text";
   font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Regular.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Text-Regular.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Text";
   font-weight: 500;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Medium.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Text-Medium.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Text";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-SemiBold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Text-SemiBold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-SemiBold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Text";
   font-weight: 700;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Bold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Text-Bold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Bold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Text";
   font-weight: 800;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Heavy.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Text-Heavy.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Heavy.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Text";
   font-weight: 900;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Black.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Text-Black.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Text-Black.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Rounded";
   font-weight: 100;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Ultralight.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Rounded-Ultralight.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Ultralight.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Rounded";
   font-weight: 200;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Thin.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Rounded-Thin.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Thin.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Rounded";
   font-weight: 300;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Light.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Rounded-Light.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Light.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Rounded";
   font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Regular.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Rounded-Regular.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Rounded";
   font-weight: 500;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Medium.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Rounded-Medium.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Rounded";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-SemiBold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Rounded-SemiBold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-SemiBold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Rounded";
   font-weight: 700;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Bold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Rounded-Bold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Bold.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Rounded";
   font-weight: 800;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Heavy.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Rounded-Heavy.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Heavy.woff") format("woff");
 }
 @font-face {
   font-family: "SF Compact Rounded";
   font-weight: 900;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Black.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/SF-Compact-Rounded-Black.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/SF-Compact-Rounded-Black.woff") format("woff");
 }
 @font-face {
   font-family: "New York Small";
   font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkSmall-Regular.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkSmall-Regular.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkSmall-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "New York Small";
   font-weight: 500;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkSmall-Medium.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkSmall-Medium.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkSmall-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "New York Small";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkSmall-Semibold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkSmall-Semibold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkSmall-Semibold.woff") format("woff");
 }
 @font-face {
   font-family: "New York Small";
   font-weight: 700;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkSmall-Bold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkSmall-Bold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkSmall-Bold.woff") format("woff");
 }
 @font-face {
   font-family: "New York Small";
   font-weight: 800;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkSmall-Heavy.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkSmall-Heavy.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkSmall-Heavy.woff") format("woff");
 }
 @font-face {
   font-family: "New York Small";
   font-weight: 900;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkSmall-Black.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkSmall-Black.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkSmall-Black.woff") format("woff");
 }
 @font-face {
   font-family: "New York Medium";
   font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkMedium-Regular.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkMedium-Regular.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkMedium-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "New York Medium";
   font-weight: 500;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkMedium-Medium.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkMedium-Medium.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkMedium-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "New York Medium";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkMedium-Semibold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkMedium-Semibold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkMedium-Semibold.woff") format("woff");
 }
 @font-face {
   font-family: "New York Medium";
   font-weight: 700;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkMedium-Bold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkMedium-Bold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkMedium-Bold.woff") format("woff");
 }
 @font-face {
   font-family: "New York Medium";
   font-weight: 800;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkMedium-Heavy.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkMedium-Heavy.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkMedium-Heavy.woff") format("woff");
 }
 @font-face {
   font-family: "New York Medium";
   font-weight: 900;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkMedium-Black.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkMedium-Black.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkMedium-Black.woff") format("woff");
 }
 @font-face {
   font-family: "New York Large";
   font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkLarge-Regular.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkLarge-Regular.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkLarge-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "New York Large";
   font-weight: 500;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkLarge-Medium.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkLarge-Medium.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkLarge-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "New York Large";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkLarge-Semibold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkLarge-Semibold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkLarge-Semibold.woff") format("woff");
 }
 @font-face {
   font-family: "New York Large";
   font-weight: 700;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkLarge-Bold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkLarge-Bold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkLarge-Bold.woff") format("woff");
 }
 @font-face {
   font-family: "New York Large";
   font-weight: 800;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkLarge-Heavy.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkLarge-Heavy.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkLarge-Heavy.woff") format("woff");
 }
 @font-face {
   font-family: "New York Large";
   font-weight: 900;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkLarge-Black.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkLarge-Black.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkLarge-Black.woff") format("woff");
 }
 @font-face {
   font-family: "New York ExtraLarge";
   font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkExtraLarge-Regular.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkExtraLarge-Regular.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkExtraLarge-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "New York ExtraLarge";
   font-weight: 500;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkExtraLarge-Medium.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkExtraLarge-Medium.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkExtraLarge-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "New York ExtraLarge";
   font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkExtraLarge-Semibold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkExtraLarge-Semibold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkExtraLarge-Semibold.woff") format("woff");
 }
 @font-face {
   font-family: "New York ExtraLarge";
   font-weight: 700;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkExtraLarge-Bold.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkExtraLarge-Bold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkExtraLarge-Bold.woff") format("woff");
 }
 @font-face {
   font-family: "New York ExtraLarge";
   font-weight: 800;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkExtraLarge-Heavy.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkExtraLarge-Heavy.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkExtraLarge-Heavy.woff") format("woff");
 }
 @font-face {
   font-family: "New York ExtraLarge";
   font-weight: 900;
-  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkExtraLarge-Black.woff");
+  src: url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff2/NewYorkExtraLarge-Black.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/daydreamer-json/SanFranciscoFontCDN@main/otf2woff/NewYorkExtraLarge-Black.woff") format("woff");
 }
